@@ -1,0 +1,39 @@
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <TextView
+                android:id="@+id/next_bus_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Следующий абобус завтра \nчерез 70 лет"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+        <TextView
+                android:id="@+id/countdown_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00 - мав  · до ул. чудская"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+        <TextView
+                android:id="@+id/schedule_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Загрузка расписания..."
+                android:textSize="18sp"
+                android:padding="8dp" />
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
